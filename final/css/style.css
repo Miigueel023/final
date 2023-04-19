@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+}
+.fondo
+{
+    background-color: rgb(214, 236, 236);
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+#top-header{
+    height: 5.2rem;
+    background-color: #2C3E50;
+}
+
+#top-header img{
+    position: absolute;
+    left: 2%;
+}
+.logo{
+    height: 5rem;
+    border-radius: 50px;
+    position: absolute;
+    top: 1.5px; 
+    
+}
+
+
+
+.nav-item a{
+    color: #FFFFFF;
+    font-size: 1.3rem;
+}
+
+#navbarNav{
+    text-align: center;
+    background-color: #2C3E50;
+}
+
+
+
+footer{
+    background-color: #222;
+    color: #666;
+    height: 175px;
+}
+
+
+.icon{
+    font-size: 20px;
+    color: #666;
+}
+
+.icon:hover{
+    color: #FFFFFF;
+}
+
+.navbar-toggler{
+    border: none;
+    padding: 0;
+}
+
+.navbar-toggler-icon{
+    background-color: rgb(250, 247, 247);
+    border-radius: 5px;
+    margin-block: 0;
+}
+
+button{
+    border: none;
+}
+.card
+{
+    transition: 1s all;
+    cursor:pointer;
+}
+.card:hover
+{
+    transform: scale(1.2);
+}
+.card-1
+{
+    transition: 1s all;
+    cursor:pointer;
+    background-color: #fff;
+}
+
+.mapa{
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+    border: 5px solid #fff;
+overflow:hidden;
+border-radius:888px;
+-moz-border-radius:888px;
+-webkit-border-radius:888px;
+-o-border-radius:888px;
+width: 50% !important;
+height: 35em !important;
+    
+}
+#servicios
+{
+    width: 640px;
+    margin: 0 auto;
+    text-align: left; 
+}
+.diferenciales{
+    padding: 3em 0;
+    
+}
+
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items{
+    line-height: 1.5;
+}
+.imagen-diferenciales{
+    width: 50%;
+    transition: 500ms;
+    box-shadow: 10px 10px 30px 10px #000000;
+    }
+.imagen-diferenciales:hover{
+    opacity: 50%;
+}
+
+
